@@ -6,7 +6,7 @@ import java.util.TreeSet;
 public class Test {
 
   public static void main(String[] args) {
-    Set<Book> bookSet = new TreeSet<Book>();
+    Set<Book> bookSet = new TreeSet<>();
     //Creating Books
     Book b1 = new Book(121, "Let us C", "Yashwant Kanetkar", "BPB", 8);
     Book b2 = new Book(233, "Operating System", "Galvin", "Wiley", 6);
